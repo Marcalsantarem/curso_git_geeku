@@ -1,0 +1,14 @@
+-> git status = verifica o status do repositório
+
+-> git init = cria um repositório a partir da pasta raíz. "transforma"
+
+-> git config user.name "" = Atribui um nome de usuario ao repositório no arquivo config da pasta .git
+--> obs> ao inserir a tag --global no comando acima, o git vai fazer isso pra todos os repositorios criados
+
+-> git config user.email "" = Atribui um email do usuario ao repositório no arquivo config da pasta .git
+--> obs> ao inserir a tag --global no comando acima, o git vai fazer isso pra todos os repositorios criados
+
+-> git add "arquivo" = adiciona o arquivo no git. Indica que o mesmo deve ser monitorado dentro do projeto
+                       também serve para atualizar o arquivo no git ANTES do commit e após um ADD.
+
+-> git commit -m "Mensagem" = realiza o commit dos arquivos que estavam "prontos"
