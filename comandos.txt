@@ -11,4 +11,6 @@
 -> git add "arquivo" = adiciona o arquivo no git. Indica que o mesmo deve ser monitorado dentro do projeto
                        também serve para atualizar o arquivo no git ANTES do commit e após um ADD.
 
+-> git add . = adiciona todos os arquivos no git.
+
 -> git commit -m "Mensagem" = realiza o commit dos arquivos que estavam "prontos"
