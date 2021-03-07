@@ -14,6 +14,7 @@
 -> git add . = adiciona todos os arquivos no git.
 
 -> git commit -m "Mensagem" = realiza o commit dos arquivos que estavam "prontos"
+--> obs> se colocar --amend antes do -m, vai refazer o último commit commitando o que está pronto atualmente
 
 -> git log = exibe o log do git do repositório
 --> obs> se colocar "log -n", mostra os n ultimos commits
@@ -27,3 +28,5 @@
 
 -> git checkout <hash-id> = muda o projeto para como estava naquele commit
 --> obs> git checkout master volta para o commit head master
+
+-> git diff: verifica diferenças dos arquivos atuais com os antigos
