@@ -24,3 +24,6 @@
 --> obs6> pesquisar no log por autor: --author="nome"
 
 -> git config core.pager cat / less = fazer o log ser mostrado inteiro no terminal mesmo se não tiver espaço
+
+-> git checkout <hash-id> = muda o projeto para como estava naquele commit
+--> obs> git checkout master volta para o commit head master
