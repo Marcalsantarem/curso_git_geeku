@@ -30,3 +30,5 @@
 --> obs> git checkout master volta para o commit head master
 
 -> git diff: verifica diferenças dos arquivos atuais com os antigos
+
+-> git reset HEAD^ --hard: descartar o último commit, voltando projeto a como era antes dele
