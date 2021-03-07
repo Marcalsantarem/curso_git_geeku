@@ -14,3 +14,13 @@
 -> git add . = adiciona todos os arquivos no git.
 
 -> git commit -m "Mensagem" = realiza o commit dos arquivos que estavam "prontos"
+
+-> git log = exibe o log do git do repositório
+--> obs> se colocar "log -n", mostra os n ultimos commits
+--> obs2> se colocar --oneline retorna os commits com apenas 1 linha (inicio do hash e mensagem)
+--> obs3> pesquisar no log por data "antes de": --before="2021-03-06"
+--> obs4> pesquisar no log por data "depois de": --after="2021-03-06"
+--> obs5> pesquisar no log por data no passado por quantidade de dias: --since="2 days ago"
+--> obs6> pesquisar no log por autor: --author="nome"
+
+-> git config core.pager cat / less = fazer o log ser mostrado inteiro no terminal mesmo se não tiver espaço
