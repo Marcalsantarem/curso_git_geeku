@@ -27,3 +27,9 @@
 -> git pull = É a junção de git fetch com git rebase
 
 -> git push = Envia as alterações para o bare-repositório
+
+-> git push -u origin main
+
+-> git remote add origin "link"
+
+-> git revert "id do commit" = desfaz as alterações do commit informado, gerando um novo
