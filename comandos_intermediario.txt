@@ -1,0 +1,29 @@
+-> "Branch nada mais é do que uma ramificação do projeto"
+
+-> Branch master = ramo principal
+
+--------------------------------------------> projeto
+
+    Base                                            ----> branch  funcionalidadeB
+----\----------------------------------------------/---------> projeto
+     ----> branch funcionalidadeA                  Base
+
+-> git branch = Consulta os branchs do projeto
+
+-> git branch "Nome" = Cria o branch com o nome informado
+
+-> git branch -d "Nome" = Deleta o branch com o nome informado
+              -D força o delete mesmo se estiver com merge
+
+-> git checkout "Nome do branch" = Muda o branch de trabalho
+                -b = Cria o branch se não existir
+
+-> git merge "Nome do branch" = Faz a junção das alterações do branch com o master
+
+-> git clone = Cria um repositório clone do repositório informado
+
+-> git fetch = Baixa os arquivos da origem para o repositório mas não faz o merge (assim possibilitando utilizar 'rebase')
+
+-> git pull = É a junção de git fetch com git rebase
+
+-> git push = Envia as alterações para o bare-repositório

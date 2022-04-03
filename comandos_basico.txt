@@ -27,8 +27,11 @@
 -> git config core.pager cat / less = fazer o log ser mostrado inteiro no terminal mesmo se não tiver espaço
 
 -> git checkout <hash-id> = muda o projeto para como estava naquele commit
+--> obs> git checkout "arquivo" volta apenas o arquivo para o estado naquele commit
 --> obs> git checkout master volta para o commit head master
 
 -> git diff: verifica diferenças dos arquivos atuais com os antigos
 
 -> git reset HEAD^ --hard: descartar o último commit, voltando projeto a como era antes dele
+
+-> git restore --staged "arquivo" = retira o arquivo de staged
