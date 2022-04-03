@@ -1,0 +1,12 @@
+-> Se colocado no commit "Closes #numero_da_issue", fecha automaticamente a Issue no github =]
+
+-> Fork copia um repositório baseado em outro. Eles não possuem nenhuma dependência entre si depois 
+disso
+
+-> Pull request é um pedido para submeter as alterações para o repositório original de um repositório
+que foi forkado
+
+-> Para criar um branch e testar um pull request antes de aceitar:
+---> git fetch origin pull/<id_do_pull_request>/head:<nome_do_novo_branch>
+------> como é fetch, esse comando apenas baixa os arquivos e cria o branch
+
